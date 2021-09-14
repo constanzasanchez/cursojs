@@ -1,0 +1,64 @@
+/*GENERALES*/
+*{margin: 0;
+padding: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing: border-box;}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background: #000;
+	padding: 40px;}
+
+/*HEADER*/
+header {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;}
+header img {
+	width: 100%;
+}
+header h1 {
+	font-size: 1.6rem;
+	font-weight: 300;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/*CALCULADORA*/
+.contenedor {
+	width: 300px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;}
+
+form p {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	color: #000;}
+
+input[type="text"] {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.2rem;}
+
+form .btn {
+	width: 100%;
+	background: #1b1b1b;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+form .btn:hover {
+	background-color: #737373;
+}
